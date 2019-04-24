@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<struts>
+    <constant name="struts.enable.DynamicMethodInvocation" value="true"/>
+    <package name="default" namespace="/" extends="struts-default">
+        <action name="xx" class="com.dy.java17.Abc">
+            <result name="zj">/zj.jsp</result>
+            <result name="xg">/dyq.jsp</result>
+        </action>
+
+        <action name="yy" class="com.dy.java17.Spa">
+            <result name="sds">/sss.jsp</result>
+        </action>
+
+        <action name="qq" class="com.dy.java17.Bm">
+            <result name="ok">/aaa.jsp</result>
+        </action>
+    </package>
+</struts>
